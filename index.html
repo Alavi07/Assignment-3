@@ -18,6 +18,7 @@
                     'btn-bg': '#FFDC26',
                     'nav-bg': '#FFF9F4',
                     'btn-border': '#FFDC26',
+                    'card-bg': '#F9DF8A',
                 }
             }
           }
@@ -77,18 +78,50 @@
           </div></nav>
     </header>
     <main>
-        <section class="bg-contain bg-center h-screen bg-no-repeat py-12 px-4 lg:pt-24 container mx-auto" style="background-image: url('assets/cat-big.png');">
+        <section class="bg-contain bg-bottom lg:bg-center lg:h-screen bg-no-repeat pb-32 pt-12 px-4 lg:pt-24 container mx-auto" style="background-image: url('assets/cat-big.png');">
             <div>
                 <p class="adlam text-3xl lg:text-6xl lg:pt-6">Pamper Your Pet,<br>Because They Deserve<br>the Best</p>
                 <p class="sora text-base lg:text-2xl pt-4 opacity-70">Discover a world of treats, toys, and essentials handpicked for <br>your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="btn mt-6 bg-btn-bg p-4">Find a pet</button>
+                <button class="btn mt-6 bg-btn-bg text-xl">Find a pet</button>
             </div>
         </section>
         <section class="container mx-auto">
-            <p class="adlam text-3xl lg:text-6xl lg:pt-6">Browse By Categories</p>
-            <div>
-                
+            <p class="adlam text-3xl pt-12 lg:text-6xl lg:pt-6 mx-3">Browse By Categories</p>
+            <div class="grid grid-cols-2 mx-3 lg:m-0 lg:grid-cols-6 gap-3 pt-12 lg:py-20">
+                <div class="bg-card-bg justify-items-center rounded-lg py-10 space-y-4">
+                    <img class="bg-white rounded-full p-5" src="/assets/dog-cartoon.png" alt="">
+                    <p class="adlam text-xl">Dog</p>
+                    <p class="sora text-base">3 items</p>
+                </div>
+                <div class="bg-card-bg justify-items-center rounded-lg py-10 space-y-4">
+                    <img class="bg-white rounded-full p-5" src="/assets/fish-cartoon.png" alt="">
+                    <p class="adlam text-xl">Fish</p>
+                    <p class="sora text-base">3 items</p>
+                </div>
+                <div class="bg-card-bg justify-items-center rounded-lg py-10 space-y-4">
+                    <img class="bg-white rounded-full p-5" src="/assets/cat-cartoon.png" alt="">
+                    <p class="adlam text-xl">Cat</p>
+                    <p class="sora text-base">3 items</p>
+                </div>
+                <div class="bg-card-bg justify-items-center rounded-lg py-10 space-y-4">
+                    <img class="bg-white rounded-full p-5" src="/assets/bird-cartoon.png" alt="">
+                    <p class="adlam text-xl">Birds</p>
+                    <p class="sora text-base">3 items</p>
+                </div>
+                <div class="bg-card-bg justify-items-center rounded-lg py-10 space-y-4">
+                    <img class="bg-white rounded-full p-6" src="/assets/mouse-cartoon.png" alt="">
+                    <p class="adlam text-xl">Small Pet</p>
+                    <p class="sora text-base">3 items</p>
+                </div>
+                <div class="bg-card-bg justify-items-center rounded-lg py-10 space-y-4">
+                    <img class="bg-white rounded-full p-5" src="/assets/rabbit-cartoon.png" alt="">
+                    <p class="adlam text-xl">Rabbit</p>
+                    <p class="sora text-base">2 items</p>
+                </div>
             </div>
+        </section>
+        <section class="bg-nav-bg container mx-auto">
+            <p class="text-4xl font-normal">Trending Pet Products</p>
         </section>
     </main>
     <footer>
