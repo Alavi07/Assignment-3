@@ -31,6 +31,12 @@
         .adlam{
             font-family: "ADLaM Display", serif;
         }
+        .lp-bg{
+            background: linear-gradient(134.71deg, rgb(248, 204, 251) 1.286%,rgb(172, 210, 253) 100%);
+        }
+        .lp-bg2{
+          background: linear-gradient(134.71deg, rgb(255, 249, 244) 1.511%,rgb(249, 223, 138) 100%);
+        }
       </style>
 </head>
 <body>
@@ -226,7 +232,24 @@
         </section>
         <section class="container mx-auto">
           <p class="adlam text-4xl font-normal">Everyday low Price</p>
-          
+          <div class="grid grid-cols-5 gap-8">
+            <div class="lp-bg bg-no-repeat col-span-3 rounded-xl flex justify-evenly ">
+              <div class="py-32 pl-20">
+                <p class="sora text-xl pb-3">Under Price</p>
+                <p class="adlam text-3xl pb-2">Pet Grooming Mitt</p>
+                <p class="adlam text-base text-white pb-4">(Easy Hair Removal)</p>
+                <p class="adlam text-6xl">$7.99</p>
+              </div>
+              <div>
+                <img class="relative" src="assets/cute-dog-mid.png" alt="">
+              </div>
+            </div>
+            <div class="col-span-2 lp-bg2 rounded-xl p-12 bg-no-repeat bg-right-bottom"
+            style="background-image: url('assets/cute-pet-mid.png'), linear-gradient(to right,#FFF9F4, #F9DF8A); ">
+                <p class="adlam text-3xl pb-5">T-Shirt for Dogs</p>
+                <p class="adlam text-6xl text-yellow-300">$7.99</p>
+            </div>
+          </div>
         </section>
     </main>
     <footer>
